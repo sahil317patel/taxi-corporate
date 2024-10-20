@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-10-20 10:21:59.687878",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yz0v",
+  "naming_series",
+  "corporate_company",
+  "table_rwvo",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yz0v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "corporate_company",
+   "fieldtype": "Link",
+   "label": "Corporate Company",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "table_rwvo",
+   "fieldtype": "Table",
+   "options": "Taxi Request Child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Taxi Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "TAX-R-.YYYY.-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-20 11:21:52.480962",
+ "modified_by": "Administrator",
+ "module": "Taxi",
+ "name": "Taxi Request",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

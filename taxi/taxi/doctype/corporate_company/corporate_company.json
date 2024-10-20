@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:company_name",
+ "creation": "2024-10-19 21:31:36.425384",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_zh7d",
+  "company_name",
+  "company_registration_number",
+  "kyc_status",
+  "column_break_ue2t",
+  "industry_type",
+  "company_website",
+  "address_details_section",
+  "address",
+  "column_break_l4pj",
+  "city",
+  "state",
+  "country",
+  "tab_break_xtgo",
+  "email",
+  "column_break_ud2z",
+  "contact_number",
+  "tab_4_tab",
+  "hr_details_section",
+  "table_zdzb"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_zh7d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "company_registration_number",
+   "fieldtype": "Data",
+   "label": "Company Registration Number"
+  },
+  {
+   "fieldname": "industry_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Industry Type",
+   "options": "IT\nManufacturing\nFinance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "address_details_section",
+   "fieldtype": "Tab Break",
+   "label": "Address Details"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "company_website",
+   "fieldtype": "Data",
+   "label": "Company Website"
+  },
+  {
+   "fieldname": "tab_break_xtgo",
+   "fieldtype": "Tab Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "label": "Company Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Company Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "column_break_ue2t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_l4pj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ud2z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tab_4_tab",
+   "fieldtype": "Tab Break",
+   "label": "HR Details"
+  },
+  {
+   "fieldname": "hr_details_section",
+   "fieldtype": "Section Break",
+   "label": "HR Details"
+  },
+  {
+   "fieldname": "table_zdzb",
+   "fieldtype": "Table",
+   "options": "Corporate Company HR Table"
+  },
+  {
+   "fieldname": "kyc_status",
+   "fieldtype": "Select",
+   "label": "KYC Status",
+   "options": "\nVerified\nPending\nRejected"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 21:50:13.064873",
+ "modified_by": "Administrator",
+ "module": "Taxi",
+ "name": "Corporate Company",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-10-20 10:35:29.542241",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vc8y",
+  "naming_series",
+  "corporate_company",
+  "column_break_p7nq",
+  "remark",
+  "section_break_u8pv",
+  "table_bqwk",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vc8y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "BO-.YYYY.-"
+  },
+  {
+   "fetch_from": "taxi_request_id.corporate_company",
+   "fieldname": "corporate_company",
+   "fieldtype": "Link",
+   "label": "Corporate Company",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Taxi Booking",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "table_bqwk",
+   "fieldtype": "Table",
+   "label": "Booking Details",
+   "options": "Taxi Request Child"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "column_break_p7nq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_u8pv",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-20 11:22:47.463334",
+ "modified_by": "Administrator",
+ "module": "Taxi",
+ "name": "Taxi Booking",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
