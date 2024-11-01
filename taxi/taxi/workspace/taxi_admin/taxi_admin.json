@@ -65,8 +65,37 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Service Bill",
+   "link_count": 0,
+   "link_to": "Purchase Invoice Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Service Bill",
+   "link_count": 0,
+   "link_to": "Sales Invoice Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Transactions",
-   "link_count": 3,
+   "link_count": 4,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -94,9 +123,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Billing",
+   "label": "Driver Trip",
    "link_count": 0,
-   "link_to": "Sales Invoice",
+   "link_to": "Driver Trip",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -104,34 +133,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Reports",
-   "link_count": 2,
+   "label": "Billing",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
    "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Purchase Service Bill",
-   "link_count": 0,
-   "link_to": "Purchase Invoice Trends",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Sales Service Bill",
-   "link_count": 0,
-   "link_to": "Sales Invoice Trends",
-   "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-10-20 11:34:05.591437",
+ "modified": "2024-11-01 20:06:10.400923",
  "modified_by": "Administrator",
  "module": "Taxi",
  "name": "Taxi Admin",
